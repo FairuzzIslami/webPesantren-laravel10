@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins",sans-serif;
+}
+#hero{
+    background-image: url(../image/andri-helmansyah-e9tCOGG40mw-unsplash.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+}
+
+/* nav */
+.nav-item .nav-link{
+    font-size: 14px;
+    margin: 0px 5px;
+}
+.scroll-nav-active{
+    background-color: white;
+    /* border-bottom: 2px solid #bd0001; */
+    box-shadow: 1px 1px 11px -11px rgba(2, 2, 2,0.08);
+}
+.text-nav-active{
+    color: black;
+}
+
+/* btn */
+.btn-danger{
+    background-color: #bd0001;
+    padding: 8px 20px;
+    border-radius: 15px;
+    color: white;
+}
+.btn-outline-danger{
+    background-color:transparent;
+    padding: 8px 30px;
+    border-radius: 8px;
+    color: #bd0001;
+}
+.btn-outline-white{
+    background-color: transparent;
+    color: #ffff;
+    padding: 8px 30px;
+    border-radius: 8px;
+    border: 1px solid #ffff;
+}
+.btn-outline-white:hover{
+    background-color: #bd0001;
+    color: white;
+}
+
+
+/* hero */
+.hero-title{
+    padding-top: 250px;
+    font-weight: bold;
+}
+.hero-text h1{
+    font-size: 70px;
+    font-weight: 500px;
+}
+.hero-text p{
+    font-size: 24px;
+    font-weight: 200;
+}
+
+/* vidio */
+#vidio{
+    background-image: url(../image/il-bg-video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+
+/* foto */
+.section-foto{
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+.paralax{
+    background-image: url(../image/daniil-silantev-LVYRCOdnC7g-unsplash.jpeg);
+}
+.stripe-putih{
+    height: 5px;
+    width: 40px;
+    background-color: #ffff;
+}
